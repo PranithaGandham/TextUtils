@@ -9,8 +9,8 @@ function App() {
       <Navbar title="TextUtils" />
       <BrowserRouter>
         <Routes>
-          <Route path="https://textutils-gp2n38gw7-pranithagandhams-projects.vercel.app/" element={<TextForm />} />
-          <Route path="https://textutils-gp2n38gw7-pranithagandhams-projects.vercel.app//about" element={<About />} />
+          <Route path="/" element={<TextForm />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </BrowserRouter>
     </>
